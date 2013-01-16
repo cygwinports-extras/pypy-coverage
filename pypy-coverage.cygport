@@ -1,0 +1,12 @@
+inherit pypy-distutils
+
+NAME="pypy-coverage"
+VERSION=3.6
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="PyPy code coverage measurement library"
+DESCRIPTION="Coverage.py measures code coverage, typically during test
+execution. It uses the code analysis tools and tracing hooks provided in
+the Python standard library to determine which lines are executable, and
+which have been executed."
+HOMEPAGE="http://nedbatchelder.com/code/coverage/"
